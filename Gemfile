@@ -17,7 +17,7 @@ group :assets do
 end
 
 group :test do
- gem 'capybara', '2.1.0'
+ gem 'capybara', '>= 1.0.0.beta1'
 end
 
 group :production do
